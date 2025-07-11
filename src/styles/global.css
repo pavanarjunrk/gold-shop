@@ -1,0 +1,30 @@
+:root {
+  --primary-bg: #1a1a1f;
+  --accent-gold: #D4AF37;
+  --text-light: #f5f5f5;
+  --text-dark: #333;
+  --section-radius: 12px;
+}
+
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  background: var(--primary-bg);
+  color: var(--text-light);
+}
+
+h2, h1, h3 {
+  font-family: 'Playfair Display', serif;
+  color: var(--accent-gold);
+}
+
+a {
+  color: var(--accent-gold);
+  text-decoration: none;
+}
+
+.container {
+  padding: 40px;
+  max-width: 1200px;
+  margin: auto;
+}
